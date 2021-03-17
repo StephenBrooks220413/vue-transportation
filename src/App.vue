@@ -22,7 +22,7 @@
             <router-link class="nav-link" to="/">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Contact</router-link>
+            <router-link class="nav-link" to="/service">Select</router-link>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -37,13 +37,13 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <router-link class="nav-link" to="/">Activities</router-link>
+                <router-link class="nav-link" to="/">Passengers</router-link>
+              </li>
+              <li>
+                <router-link class="nav-link" to="/">Drivers</router-link>
               </li>
               <li>
                 <router-link class="nav-link" to="/">Programs</router-link>
-              </li>
-              <li>
-                <router-link class="nav-link" to="/">Volunteer</router-link>
               </li>
             </ul>
           </li>
