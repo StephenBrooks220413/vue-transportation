@@ -1,12 +1,63 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TransCar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <router-link class="nav-link" to="/">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/">About</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/">Contact</router-link>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <router-link class="nav-link" to="/">Activities</router-link>
+              </li>
+              <li>
+                <router-link class="nav-link" to="/">Programs</router-link>
+              </li>
+              <li>
+                <router-link class="nav-link" to="/">Volunteer</router-link>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <span class="navbar-text"> Resources </span>
+      </div>
+    </div>
+  </nav>
   <router-view />
 </template>
 
 <style lang="scss">
+@import "~mdb-ui-kit/css/mdb.min.css";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
