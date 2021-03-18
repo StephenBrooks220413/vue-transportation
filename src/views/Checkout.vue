@@ -26,13 +26,13 @@
             <div class="row mb-4">
               <div class="col">
                 <div class="form-outline">
-                  <input type="text" id="form6Example1" class="form-control" />
+                  <input type="text" required id="form6Example1" class="form-control" />
                   <label class="form-label" for="form6Example1">First name</label>
                 </div>
               </div>
               <div class="col">
                 <div class="form-outline">
-                  <input type="text" id="form6Example2" class="form-control" />
+                  <input type="text" required id="form6Example2" class="form-control" />
                   <label class="form-label" for="form6Example2">Last name</label>
                 </div>
               </div>
@@ -40,26 +40,26 @@
 
             <!-- Text input -->
             <div class="form-outline mb-4">
-              <input type="text" id="form6Example4" class="form-control" />
+              <input type="text" required id="form6Example4" class="form-control" />
               <label class="form-label" for="form6Example4">Address</label>
             </div>
 
             <!-- Email input -->
             <div class="form-outline mb-4">
-              <input type="email" id="form6Example5" class="form-control" />
+              <input type="email" required id="form6Example5" class="form-control" />
               <label class="form-label" for="form6Example5">Email</label>
             </div>
 
             <!-- Number input -->
             <div class="form-outline mb-4">
-              <input type="number" id="form6Example6" class="form-control" />
+              <input type="number" required id="form6Example6" class="form-control" />
               <label class="form-label" for="form6Example6">Phone</label>
             </div>
 
             <!-- Checkbox -->
             <div class="form-outline d-flex justify-content-center mb-4">
               <h4>Payment Method</h4>
-              <select id="paymentForm">
+              <select id="paymentForm" required>
                 <option selected value=""></option>
                 <option value="square">Square</option>
                 <option value="debit/credit">Debit/Credit</option>
@@ -76,17 +76,17 @@
             <!-- Payment input -->
             <div class="form-outline mb-4">
             <p>Card Expiration Date</p>
-              <input type="date" id="form6Example6" class="form-control" />
+              <input type="date" required id="form6Example6" class="form-control" />
             </div>
 
             <!-- Message input -->
             <div class="form-outline mb-4">
-              <textarea class="form-control" id="form6Example7" rows="4"></textarea>
-              <label class="form-label" for="form6Example7">Additional information</label>
+              <textarea class="form-control" required id="form6Example7" rows="4"></textarea>
+              <label class="form-label" for="form6Example7">Please tell us the date, time, anything that may help us find you better.</label>
             </div>
 
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+            <button type="submit" onclick="alert('Order Placed!!!')" class="btn btn-primary btn-block mb-4">Place order</button>
           </form>
         </div>
       </div>
