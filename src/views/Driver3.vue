@@ -24,7 +24,9 @@
             He has driven people to doctor appointments, helped with picking up family,
             transporting groceries, to bringing people to work.
         </p>
-        <a href="#" class="btn btn-outline-warning">BOOK</a>
+        <router-link class="btn btn-outline-warning" to="/checkout">
+            PROCEED
+        </router-link>
         <div class="next">
             <router-link to="/driver4">
                 <small>next driver</small> <br />
