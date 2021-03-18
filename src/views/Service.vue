@@ -1,6 +1,6 @@
 <template>
   <div class="service">
-    <h1 class="display-3">Select A Driver</h1>
+    <h1 class="display-3 text">Select A Driver</h1>
     <div class="service-container">
         <div class="row">
             <div class="col-md">
@@ -11,7 +11,7 @@
                         alt="driving"
                         class="img-fluid"
                     /> <br /><br />
-                    <a href="#" class="btn btn-outline-warning">BOOK</a>
+                    <router-link class="btn btn-outline-warning" to="/driver1">Look</router-link>
                 </div>
             </div>
             <div class="col-md">
@@ -22,7 +22,7 @@
                         alt="driving"
                         class="img-fluid"
                     /> <br /><br />
-                    <a href="#" class="btn btn-outline-warning">BOOK</a>
+                    <router-link class="btn btn-outline-warning" to="/driver2">Look</router-link>
                 </div>
             </div>
             <div class="col-md">
@@ -33,7 +33,7 @@
                         alt="driving"
                         class="img-fluid"
                     /> <br /><br />
-                    <a href="#" class="btn btn-outline-warning">BOOK</a>
+                    <router-link class="btn btn-outline-warning" to="/driver3">Look</router-link>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                         alt="driving"
                         class="img-fluid"
                     /> <br /><br />
-                    <a href="#" class="btn btn-outline-warning">BOOK</a>
+                    <router-link class="btn btn-outline-warning" to="/driver4">Look</router-link>
                 </div>
             </div>
             <div class="col-md">
@@ -57,7 +57,7 @@
                         alt="driving"
                         class="img-fluid"
                     /> <br /><br />
-                    <a href="#" class="btn btn-outline-warning">BOOK</a>
+                    <router-link class="btn btn-outline-warning" to="/driver5">Look</router-link>
                 </div>
             </div>
             <div class="col-md">
@@ -68,19 +68,10 @@
                         alt="driving"
                         class="img-fluid"
                     /> <br /><br />
-                    <a href="#" class="btn btn-outline-warning">BOOK</a>
+                    <router-link class="btn btn-outline-warning" to="/driver6">Look</router-link>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="jumbotron">
-        What day do you need it?
-        <select value="select">
-            <option value="value">Got couple days</option>
-            <option value="value">Got some time</option>
-            <option value="value">Got it tomorrow</option>
-        </select>
-        <div id="selection"></div>
     </div>
   </div>
 </template>

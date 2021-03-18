@@ -19,7 +19,7 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/">About</router-link>
+            <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/service">Select</router-link>
