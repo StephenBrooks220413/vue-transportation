@@ -67,9 +67,11 @@
           </div>
 
           <!-- Submit button -->
-          <button type="submit" class="btn btn-warning btn-block mb-4">
-            Send
-          </button>
+          <center>
+            <button type="submit" class="btn btn-warning btn-block mb-4">
+              Send
+            </button>
+          </center>
         </form>
       </div>
     </div>
