@@ -33,11 +33,13 @@
           </p>
           <br /><br />
         </div>
-        <img
-          src="https://images.unsplash.com/photo-1557159557-7a93eaadf72a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
-          alt="highway"
-          class="img-fluid"
-        />
+        <div class="container">
+          <img
+            src="https://images.unsplash.com/photo-1557159557-7a93eaadf72a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+            alt="highway"
+            class="img-fluid max"
+          />
+        </div>
         <br /><br />
         Buyer Info: If you need to text or call me ahead of time or prior to
         arrival, that can be done by reaching me at 555-555-5555. <br />
@@ -178,6 +180,12 @@
   .container {
     margin-top: 40px;
   }
+}
+.max {
+  width: 70%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 textarea {
   background-color: lightgrey !important;

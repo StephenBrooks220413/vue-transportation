@@ -3,7 +3,9 @@
     <div class="bg-image">
       <h1 class="display-4">Book your ride.</h1>
       <br />
-      <a href="" class="btn button btn-warning">Inquire</a>
+      <a href="mailto:stephenbrooks714@gmail.com" class="btn button btn-warning"
+        >Inquire</a
+      >
     </div>
     <div class="block">
       <div class="row">

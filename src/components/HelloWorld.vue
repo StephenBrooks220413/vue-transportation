@@ -2,6 +2,7 @@
   <div>
     <div class="content-1">
       <h1 class="display-4">Ease of Booking</h1>
+      <br />
       <router-link to="/Driver1" class="btn button btn-outline-warning">Book Now</router-link>
     </div>
     <div class="block">
