@@ -17,7 +17,10 @@
             class="img-fluid"
             alt=""
           /><br /><br />
-          <a href="#" class="btn btn-outline-primary" download="#"
+          <a
+            href="../assets/brochure.docx"
+            class="btn btn-outline-primary"
+            download="brochure.docx"
             >download DOCS</a
           >
         </div>
@@ -28,7 +31,10 @@
             class="img-fluid"
             alt=""
           /><br /><br />
-          <a href="#" class="btn btn-outline-primary" download="#"
+          <a
+            href="../assets/brochure.docx"
+            class="btn btn-outline-primary"
+            download="brochure.docx"
             >download DOCS</a
           >
         </div>
@@ -39,7 +45,10 @@
             class="img-fluid"
             alt=""
           /><br /><br />
-          <a href="#" class="btn btn-outline-primary" download="#"
+          <a
+            href="../assets/brochure.docx"
+            class="btn btn-outline-primary"
+            download="brochure.docx"
             >download DOCS</a
           >
         </div>
