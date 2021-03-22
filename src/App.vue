@@ -42,10 +42,9 @@
                 >
               </li>
               <li>
-                <router-link class="nav-link" to="/">Drivers</router-link>
-              </li>
-              <li>
-                <router-link class="nav-link" to="/">Programs</router-link>
+                <router-link class="nav-link" to="/drivers"
+                  >Drivers</router-link
+                >
               </li>
             </ul>
           </li>

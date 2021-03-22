@@ -1,3 +1,4 @@
+///////////////////top image
 .bg-image { 
     background: url(https://images.unsplash.com/photo-1482029255085-35a4a48b7084?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -15,7 +16,58 @@
         border-radius: 34px;
     }
 }
-@media(max-width: 650px){
+////////////////// content
+.content-1 { 
+    background: url(https://images.unsplash.com/photo-1554672408-730436b60dde?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding-top: 220px;
+    color: orange;
+
+    .button {
+        font-size: 20px;
+        border-radius: 34px;
+        color: white;
+    }
+}
+
+.content-2 { 
+    background: url(https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding-top: 220px;
+    color: orange;
+}
+
+.content-3 { 
+    background: url(https://images.unsplash.com/photo-1518607692857-bff9babd9d40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content-4 { 
+    background: url(https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding-top: 220px;
+    color: orange;
+}
+//////////////////////media
+@media(max-width: 750px){
     .bg-image { 
         background: url(https://images.unsplash.com/photo-1482029255085-35a4a48b7084?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80) no-repeat center center; 
         -webkit-background-size: cover;
@@ -128,56 +180,6 @@
         max-width: 300px !important;
         font-size: 18px;
     }
-}
-
-.content-1 { 
-    background: url(https://images.unsplash.com/photo-1554672408-730436b60dde?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 80vh;
-    padding-top: 220px;
-    color: orange;
-
-    .button {
-        font-size: 20px;
-        border-radius: 34px;
-        color: white;
-    }
-}
-
-.content-2 { 
-    background: url(https://images.unsplash.com/photo-1514575110897-1253ff7b2ccb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 80vh;
-    padding-top: 220px;
-    color: orange;
-}
-
-.content-3 { 
-    background: url(https://images.unsplash.com/photo-1518607692857-bff9babd9d40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.content-4 { 
-    background: url(https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 80vh;
-    padding-top: 220px;
-    color: orange;
 }
 
 .icon {
