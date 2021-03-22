@@ -37,7 +37,9 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <router-link class="nav-link" to="/">Passengers</router-link>
+                <router-link class="nav-link" to="/passengers"
+                  >Passengers</router-link
+                >
               </li>
               <li>
                 <router-link class="nav-link" to="/">Drivers</router-link>
